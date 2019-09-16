@@ -1,2 +1,24 @@
 # nodeColor
-Somes colors and loging for node app
+
+Somes colors and logging.
+
+## Color
+
+```
+const color = require('nodeColor'); // Add color and timestamp to default console.log / warn / error
+```
+
+
+
+
+## Logging
+
+```
+const color = require('nodeColor');
+
+color.initLogging('filename', './logFoolder')); // Write default console.log / warn / err to specified file
+
+color.setLog('AnOtherFilename', 'LOG', 'This is a log !');
+color.setLog('AnOtherFilename', 'WARN', 'This is a warning !');
+color.setLog('AnOtherFilename', 'ERR', 'This is an error !');
+```

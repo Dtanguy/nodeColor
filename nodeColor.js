@@ -56,7 +56,7 @@ let logDir = './';
 let logEnable = false;
 
 
-function initLoging(name, dir){
+function initLogging(name, dir){
 	myName = name;
 	logDir = dir;
 	logEnable = true;
@@ -92,7 +92,7 @@ function appendInLogFile(name, line){
 }
 
 
-module.exports.initLoging 		= initLoging;
+module.exports.initLogging 		= initLoging;
 module.exports.setLog 			= setLog;
 module.exports.appendInLogFile 	= appendInLogFile;
 module.exports.cyan 			= cyan;
