@@ -92,7 +92,7 @@ function appendInLogFile(name, line){
 }
 
 
-module.exports.initLogging 		= initLoging;
+module.exports.initLogging 		= initLogging;
 module.exports.setLog 			= setLog;
 module.exports.appendInLogFile 	= appendInLogFile;
 module.exports.cyan 			= cyan;
