@@ -2,9 +2,9 @@
 
 Somes colors and logging.
 
-## Color
+## Colors
 
-```
+```js
 const color = require('nodeColor'); // Add color and timestamp to default console.log / warn / error
 ```
 
@@ -13,7 +13,7 @@ const color = require('nodeColor'); // Add color and timestamp to default consol
 
 ## Logging
 
-```
+```js
 const color = require('nodeColor');
 
 color.initLogging('filename', './logFoolder')); // Write default console.log / warn / err to specified file
